@@ -1,7 +1,0 @@
-palindrom = []
-for year in range(1, 2019):
-    year_str = str(year)
-    if year_str == year_str[::-1]:
-        palindrom.append(year_str)
-        
-print(palindrom)
